@@ -1,0 +1,36 @@
+{
+  "name": "sanguo-draw-log",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "start:device": "expo start --lan",
+    "sync:library": "node scripts/sync-official-library.mjs",
+    "ios": "expo run:ios",
+    "ios:device:release": "expo run:ios --device --configuration Release --no-bundler",
+    "typecheck": "tsc --noEmit",
+    "android": "expo run:android"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "~14.0.4",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/datetimepicker": "8.2.0",
+    "expo": "~52.0.46",
+    "expo-asset": "~11.0.5",
+    "expo-document-picker": "~13.0.3",
+    "expo-file-system": "~18.0.12",
+    "expo-font": "~13.0.4",
+    "expo-sharing": "~13.0.1",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-share": "^12.3.1",
+    "react-native-svg": "15.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  }
+}

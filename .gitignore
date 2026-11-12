@@ -1,0 +1,30 @@
+node_modules/
+.expo/
+dist/
+npm-debug.log*
+.DS_Store
+
+# Native build artifacts and local dependency caches
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Local previews, generated experiments, and device backups
+work/
+output/
+backups/
+
+# Personal import sources and exported records
+data/imports/
+抽卡记录*.docx
+
+# Local environment and signing material
+.env
+.env.*
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+*.key

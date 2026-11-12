@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "三国抽卡簿",
+    "slug": "sanguo-draw-log",
+    "version": "1.0.0",
+    "icon": "./assets/app-icon-v2.png",
+    "orientation": "portrait",
+    "platforms": [
+      "ios"
+    ],
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.sanguo.drawlog",
+      "buildNumber": "18",
+      "icon": "./assets/app-icon-v2.png",
+      "infoPlist": {
+        "UIRequiresFullScreen": true
+      },
+      "appleTeamId": "PQ2746MH38"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
